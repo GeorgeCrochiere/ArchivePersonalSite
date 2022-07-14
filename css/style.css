@@ -1,15 +1,15 @@
 html {
     position: relative;
-    font-size: 16px;
+    font-size: 12pt;
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
 
 header {
     background-color: #121212;
+    font-size: 16pt;
 }
 
 footer {
@@ -36,7 +36,9 @@ nav {
 }
 
 .main {
-    
+    float: left;
+    font-size: 18pt;
+    padding: 12pt;
 }
 
 .navbar {
@@ -44,17 +46,16 @@ nav {
 }
 
 .nav-link {
-
+    float: left;
+    padding: 5pt;
+    padding-top: 14pt;
 }
 
-.dropdown {
-
-}
-
-.dropdown-start {
-
+.dropdown-start, .dropdown {
+    padding: 5pt;
+    padding-top: 14pt;
 }
 
 .dropdown-content {
-
+    display: none;   
 }
