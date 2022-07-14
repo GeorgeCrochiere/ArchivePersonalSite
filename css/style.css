@@ -1,25 +1,37 @@
+html {
+    position: relative;
+    font-size: 16px;
+}
+
 body {
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 header {
-
+    background-color: #121212;
 }
 
 footer {
+    background-color: #121212;
+}
 
+.white-text {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .main-contents {
-
+    background-color: #1F1B24;
 }
 
 nav {
-
+    overflow: hidden;
+    background-color: #121212;
 }
 
 .main {
-
+    
 }
 
 .navbar {
