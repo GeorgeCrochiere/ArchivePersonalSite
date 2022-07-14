@@ -14,6 +14,10 @@ header, footer {
     background-color: #121212;
 }
 
+nav {
+    display: flex;
+}
+
 .white-text {
     color: aliceblue;
     text-decoration: none;
@@ -43,20 +47,19 @@ nav {
 }
 
 .navbar {
-    display: block;
+    display: flex;
 }
 
 .collapse-nav {
     display: none;
-    float: right;
     padding-right: 20pt;
+    margin-left: auto;
 }
 
 .nav-link {
     float: left;
     padding: 7pt;
     padding-top: 14.5pt;
-    padding-bottom: 12pt;
 }
 
 .nav-link:hover, .dropdown-start:hover, .main:hover {
@@ -64,10 +67,13 @@ nav {
     color: gold;
 }
 
-.dropdown-start, .dropdown {
+.dropdown {
+    display: flex;
+}
+
+.dropdown-start{
     padding: 7pt;
     padding-top: 14.5pt;
-    padding-bottom: 12pt;
 }
 
 .dropdown-content {
@@ -76,7 +82,7 @@ nav {
 
 .menu {
     padding-top: 11pt;
-    padding-bottom: 9pt;
+    padding-bottom: 9.5pt;
 }
 
 .menuIcon {
