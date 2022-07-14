@@ -1,6 +1,6 @@
 html {
     position: relative;
-    font-size: 12pt;
+    font-size: 8pt;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #121212;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 footer {
@@ -37,8 +37,9 @@ nav {
 
 .main {
     float: left;
-    font-size: 18pt;
+    font-size: 14pt;
     padding: 12pt;
+    padding-left: 20pt;
 }
 
 .navbar {
@@ -47,13 +48,19 @@ nav {
 
 .nav-link {
     float: left;
-    padding: 5pt;
-    padding-top: 14pt;
+    padding: 7pt;
+    padding-top: 14.5pt;
+    padding-bottom: 12pt;
+}
+
+.nav-link:hover, .dropdown-start:hover, .main:hover {
+    background-color: darkgreen;
 }
 
 .dropdown-start, .dropdown {
-    padding: 5pt;
-    padding-top: 14pt;
+    padding: 7pt;
+    padding-top: 14.5pt;
+    padding-bottom: 12pt;
 }
 
 .dropdown-content {
