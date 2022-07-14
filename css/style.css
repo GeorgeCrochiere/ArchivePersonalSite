@@ -21,6 +21,11 @@ footer {
     text-decoration: none;
 }
 
+.white-text-muted {
+    color: darkgray;
+    text-decoration: none;
+}
+
 .main-contents {
     background-color: #1F1B24;
 }
