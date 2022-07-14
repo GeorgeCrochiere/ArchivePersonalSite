@@ -61,6 +61,7 @@ nav {
 
 .nav-link:hover, .dropdown-start:hover, .main:hover {
     background-color: darkgreen;
+    color: gold;
 }
 
 .dropdown-start, .dropdown {
@@ -71,4 +72,20 @@ nav {
 
 .dropdown-content {
     display: none;   
+}
+
+.menu {
+    padding-top: 11pt;
+    padding-bottom: 9pt;
+}
+
+.menuIcon {
+    width: 18pt;
+    height: 2pt;
+    background-color: aliceblue;
+    margin: 4pt;
+}
+
+ .menu:hover .menuIcon {
+    background-color: gold;
 }
