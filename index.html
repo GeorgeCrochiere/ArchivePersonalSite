@@ -13,15 +13,15 @@
         }
     </style>
 </head>
-<body>
-    <header class="white-text">
+<body onresize="headerSizetemp()" src="./js/site.js">
+    <header class="white-text" id="header">
         <nav>
             <!--Home Button-->
             <div>
-                <a class="main white-text" href="#">George D. Crochiere</a>
+                <a class="main white-text" id="homeButton" href="#">George D. Crochiere</a>
             </div>
             <!--Navbar Items-->
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <a class="nav-link white-text-muted" href="#">About Me</a>
                 <a class="nav-link white-text-muted" href="#">Mission Statement</a>
                 <a class="nav-link white-text-muted" href="#">Resume</a>
@@ -35,17 +35,22 @@
                     </div>
                 </div>
             </div>
+            <div class="collapse-nav" id="collapse-navbar">
+                <a class="nav-link white-text" href="#">Test</a>
+            </div>
         </nav>
+        <script></script>
     </header>
 
     <!--Main Body-->
     <div class="main-contents">
-
+        <p id="main"></p>
     </div>
 
     <!--footer-->
     <footer class="white-text">
 
     </footer>
+    <script onload="headerSizetemp()" src="./js/site.js"></script>
 </body>
 </html>
