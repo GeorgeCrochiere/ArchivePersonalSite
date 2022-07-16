@@ -4,13 +4,14 @@ html {
 
 body {
     margin: 0px;
+    z-index: 1;
 }
 
 p {
     font-size: 12pt;
 }
 
-header, footer {
+footer, nav {
     background-color: #121212;
 }
 
@@ -33,9 +34,9 @@ nav {
     font-size: 14pt;
     padding: 12pt;
     padding-left: 20pt;
+    white-space: nowrap;
 }
 
 .nav-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
-    background-color: darkgreen;
     color: gold;
 }

@@ -1,11 +1,12 @@
-headerSizetemp();
+function headerSize() {
+    document.getElementById("dropdownContent1").style.display = "none";
+    document.getElementById("dropdownContent2").style.display = "none";
+    document.getElementById("menuList").style.display = "none";
 
-
-function headerSizetemp() {
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
-    //document.getElementById("Clarkson").style.height = document.getElementById("homeButtom").style.height;
-    if (width > (homeWidth * 4)) {
+    
+    if (width > (homeWidth * 4.1)) {
         document.getElementById("main").style.backgroundColor = "crimson";
         document.getElementById("navbar").style.display = "flex";
         document.getElementById("collapse-navbar").style.display = "none";

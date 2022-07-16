@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/text.css">
     <link rel="stylesheet" href="./css/menuIcon.css">
     <link rel="stylesheet" href="./css/navbar.css">
+
+    <script src="./js/site.js"></script>
+    <script src="./js/menuList.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
     <title>Home - George D. Crochiere</title>
     <style>
@@ -16,7 +20,7 @@
         }
     </style>
 </head>
-<body onresize="headerSizetemp()" src="./js/site.js">
+<body onresize="headerSize()" onload="headerSize()">
     <header class="white-text">
         <nav>
             <!--Home Button-->
@@ -30,33 +34,31 @@
                 <a class="nav-link white-text-muted" href="#">Resume</a>
                 <a class="nav-link white-text-muted" href="#">Contact Me</a>
                 <!--Clarkson Dropdown-->
-                <div class="dropdown">
-                    <li class="dropdown-start"><a class="dds white-text-muted" href="">Clarkson Honors</a></li>
-                    <li class="dropdown-content"><a class="dark-text" href="#">Strengths</a></li>
-                    <li class="dropdown-content"><a class="dark-text" href="#">Professional Ethics</a></li>
+                <div class="dropdown" onclick="dropToggle()">
+                    <li class="dropdown-start" id="dropName"><a class="dds white-text-muted" href="#">Clarkson Honors</a></li>
+                    <li class="dropdown-content" id="dropdownContent1"><a class="dark-text" href="#">Strengths</a></li>
+                    <li class="dropdown-content" id="dropdownContent2"><a class="dark-text" href="#">Professional Ethics</a></li>
                 </div>
             </div>
             <!--Menu Selector-->
-            <div class="collapse-nav" id="collapse-navbar">
-                <div class="menu-button">
-                    <a class="white-text menu" href="#">
+            <div class="collapse-nav" id="collapse-navbar" onclick="menuToggle()">
+                <li class="menu-button">
+                    <a class="white-text menu" id="menuToggle" href="#">
                         <div class="menuIcon"></div>
                         <div class="menuIcon"></div>
                         <div class="menuIcon"></div>
                     </a>
-                </div>
-                <div class="menu-content">
-                    <a class="menu-link dark-text" href="#">About</a>
-                    <a class="menu-link dark-text" href="#">Mission Statement</a>
-                    <a class="menu-link dark-text" href="#">Resume</a>
-                    <a class="menu-link dark-text" href="#">Contact Me</a>
-                    <div class="menu-dropdown">
+                </li>
+                <div class="menu-content" id="menuList">
+                    <li><a class="menu-link dark-text" href="#">About</a></li>
+                    <li><a class="menu-link dark-text" href="#">Mission Statement</a></li>
+                    <li><a class="menu-link dark-text" href="#">Resume</a></li>
+                    <li><a class="menu-link dark-text" href="#">Contact Me</a></li>
+                    <li><div class="menu-dropdown">
                         <a class="menu-dropdown-start dark-text">Clarkson Honors</a>
-                        <li class="menu-dropdown-content">
-                            <a class="menu-link dark-text" href="#">Strengths</a>
-                            <a class="menu-link dark-text" href="#">Professional Ethics</a>
-                        </li>
-                    </div>
+                        <li><a class="menu-link dark-text" href="#">Strengths</a></li>
+                        <li><a class="menu-link dark-text" href="#">Professional Ethics</a></li>
+                    </div></li>
                 </div>
             </div>
         </nav>
@@ -72,6 +74,5 @@
     <footer class="white-text">
 
     </footer>
-    <script onload="headerSizetemp()" src="./js/site.js"></script>
 </body>
 </html>
