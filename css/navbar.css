@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content, .dropdown-start {
+    list-style: none;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 10pt;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.nav-link {
+    padding: 7pt;
+    padding-top: 14.5pt;
+    padding-bottom: 10pt;
+    list-style: none;
+}
+
+.dropdown-start {
+    background-color: #121212;
+    padding-top: 14.5pt;
+}
+
+.dropdown-start:hover ~ .dropdown-content, .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover {
+    background-color: lightslategray;
+}
+
+.dropdown-start:hover .dds {
+    background-color: darkgreen;
+    color: gold;
+}

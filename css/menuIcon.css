@@ -1,0 +1,39 @@
+.collapse-nav {
+    display: none;
+    padding-right: 20pt;
+    margin-left: auto;
+}
+
+.menu-link, .menu-dropdown {
+    background-color: aliceblue;
+}
+
+.menu {
+    float: right;
+    padding: 7pt;
+    padding-top: 10pt;
+}
+
+.menu-button:hover {
+    background-color: darkgreen;
+}
+
+.menuIcon {
+    width: 18pt;
+    height: 2pt;
+    background-color: aliceblue;
+    margin: 4pt;
+}
+
+ .menu:hover .menuIcon {
+    background-color: gold;
+    display: block;
+}
+
+.menu-content {
+    display: none;
+}
+
+.menu:hover ~ .menu-content {
+    display: block;
+}

@@ -1,0 +1,14 @@
+.white-text {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.dark-text {
+    color: #121212;
+    text-decoration: none;
+}
+
+.white-text-muted {
+    color: darkgray;
+    text-decoration: none;
+}

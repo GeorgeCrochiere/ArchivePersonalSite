@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/menuIcon.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
     <title>Home - George D. Crochiere</title>
     <style>
@@ -28,19 +31,33 @@
                 <a class="nav-link white-text-muted" href="#">Contact Me</a>
                 <!--Clarkson Dropdown-->
                 <div class="dropdown">
-                    <a class="dropdown-start white-text-muted" href="">Clarkson Honors</a>
-                    <div class="dropdown-content">
-                        <a class="nav-link white-text-muted" href="#">Strengths</a>
-                        <a class="nav-link white-text-muted" href="#">Professional Ethics</a>
-                    </div>
+                    <li class="dropdown-start"><a class="dds white-text-muted" href="">Clarkson Honors</a></li>
+                    <li class="dropdown-content"><a class="dark-text" href="#">Strengths</a></li>
+                    <li class="dropdown-content"><a class="dark-text" href="#">Professional Ethics</a></li>
                 </div>
             </div>
+            <!--Menu Selector-->
             <div class="collapse-nav" id="collapse-navbar">
-                <a class="nav-link white-text menu" href="#">
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                    <div class="menuIcon"></div>
-                </a>
+                <div class="menu-button">
+                    <a class="white-text menu" href="#">
+                        <div class="menuIcon"></div>
+                        <div class="menuIcon"></div>
+                        <div class="menuIcon"></div>
+                    </a>
+                </div>
+                <div class="menu-content">
+                    <a class="menu-link dark-text" href="#">About</a>
+                    <a class="menu-link dark-text" href="#">Mission Statement</a>
+                    <a class="menu-link dark-text" href="#">Resume</a>
+                    <a class="menu-link dark-text" href="#">Contact Me</a>
+                    <div class="menu-dropdown">
+                        <a class="menu-dropdown-start dark-text">Clarkson Honors</a>
+                        <li class="menu-dropdown-content">
+                            <a class="menu-link dark-text" href="#">Strengths</a>
+                            <a class="menu-link dark-text" href="#">Professional Ethics</a>
+                        </li>
+                    </div>
+                </div>
             </div>
         </nav>
         <script></script>

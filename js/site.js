@@ -4,6 +4,7 @@ headerSizetemp();
 function headerSizetemp() {
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
+    //document.getElementById("Clarkson").style.height = document.getElementById("homeButtom").style.height;
     if (width > (homeWidth * 4)) {
         document.getElementById("main").style.backgroundColor = "crimson";
         document.getElementById("navbar").style.display = "flex";
