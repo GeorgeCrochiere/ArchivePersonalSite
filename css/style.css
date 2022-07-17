@@ -37,6 +37,6 @@ nav {
     white-space: nowrap;
 }
 
-.nav-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
+.nav-link:hover, .menu-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
     color: gold;
 }

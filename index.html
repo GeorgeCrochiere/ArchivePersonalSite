@@ -41,24 +41,22 @@
                 </div>
             </div>
             <!--Menu Selector-->
-            <div class="collapse-nav" id="collapse-navbar" onclick="menuToggle()">
-                <li class="menu-button">
-                    <a class="white-text menu" id="menuToggle" href="#">
-                        <div class="menuIcon"></div>
-                        <div class="menuIcon"></div>
-                        <div class="menuIcon"></div>
-                    </a>
-                </li>
-                <div class="menu-content" id="menuList">
-                    <li><a class="menu-link dark-text" href="#">About</a></li>
-                    <li><a class="menu-link dark-text" href="#">Mission Statement</a></li>
-                    <li><a class="menu-link dark-text" href="#">Resume</a></li>
-                    <li><a class="menu-link dark-text" href="#">Contact Me</a></li>
-                    <li><div class="menu-dropdown">
-                        <a class="menu-dropdown-start dark-text">Clarkson Honors</a>
-                        <li><a class="menu-link dark-text" href="#">Strengths</a></li>
-                        <li><a class="menu-link dark-text" href="#">Professional Ethics</a></li>
-                    </div></li>
+            <div class="collapse-nav" id="collapse-navbar">
+                <div class="menu-content">
+                    <li class="menu-button" onclick="menuToggle()">
+                        <a class="white-text menu" id="menuToggle" href="#">
+                            <div class="menuIcon"></div>
+                            <div class="menuIcon"></div>
+                            <div class="menuIcon"></div>
+                        </a>
+                    </li>
+                    <li class="menu-link menu-item" id="menuList" onclick="menuToggle()"><a class="dark-text" href="#">About</a></li>
+                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text" href="#">Mission Statement</a></li>
+                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text" href="#">Resume</a></li>
+                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text" href="#">Contact Me</a></li>
+                    <li class="menu-dropdown-start menu-item" onclick="menuDropToggle()"><a class="dark-text" href="#">Clarkson Honors</a></li>
+                    <li class="menu-dropdown-link" id="menuDropTest" onclick="menuToggle()"><a class="dark-text" href="#">Strengths</a></li>
+                    <li class="menu-dropdown-link" onclick="menuToggle()"><a class="dark-text" href="#">Professional Ethics</a></li>
                 </div>
             </div>
         </nav>

@@ -1,7 +1,6 @@
 function headerSize() {
-    document.getElementById("dropdownContent1").style.display = "none";
-    document.getElementById("dropdownContent2").style.display = "none";
-    document.getElementById("menuList").style.display = "none";
+    dropClose();
+    menuClose();
 
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
@@ -17,6 +16,5 @@ function headerSize() {
     }
 
     var txt = "Home Width: " + homeWidth + ", Window Width: " + width;
-    document.getElementById("main").textContent = txt;
-            
+    document.getElementById("main").textContent = txt;           
 }

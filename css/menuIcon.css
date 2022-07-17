@@ -1,5 +1,5 @@
 .collapse-nav {
-    display: none;
+    float: right;
     padding-right: 20pt;
     margin-left: auto;
     list-style: none;
@@ -9,8 +9,20 @@
     list-style: none;
 }
 
-.menu-link, .menu-dropdown {
-    background-color: aliceblue;
+.menu-link, .menu-dropdown-link, .menu-dropdown-start {
+    background-color: lightgray;
+    float: right;
+    clear: right;
+    padding: 5pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    display: none;
+    margin: 0pt;
+}
+
+.menu-dropdown-link {
+    display: none;
+    font-size: 12pt;
 }
 
 .menu {
@@ -32,7 +44,11 @@
 }
 
 .menu-content {
-    display: none;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
-
+.menu-item:hover, .menu-dropdown-link:hover {
+    background-color: lightslategray;
+}
