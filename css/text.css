@@ -12,3 +12,8 @@
     color: darkgray;
     text-decoration: none;
 }
+
+.dark-text-muted {
+    color: #646464;
+    text-decoration: none;
+}

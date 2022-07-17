@@ -21,6 +21,11 @@
 }
 
 .menu-dropdown-link {
+    padding-left: 5pt;
+    padding-right: 10pt;
+}
+
+.menu-dropdown-link {
     display: none;
     font-size: 12pt;
 }
@@ -49,6 +54,19 @@
     flex-direction: column;
     text-align: right;
 }
+
+.menu-item, .menu-dropdown-link {
+    pointer-events: none;
+}
+
+.menu-hover, .menu-hover-drop {
+    pointer-events: all;
+}
+
 .menu-item:hover, .menu-dropdown-link:hover {
     background-color: lightslategray;
+}
+
+.menu-dropdown-start-selected {
+    background-color: darkslategray;
 }

@@ -51,6 +51,7 @@ function menuDropToggle() {
 
 function menuDropOpen() {
     var menuDropList = document.getElementsByClassName("menu-dropdown-link");
+    (document.getElementsByClassName("menu-dropdown-start"))[0].classList.add("menu-dropdown-start-selected");
     for (i = 0; i < menuDropList.length; i++) {
         menuDropList[i].style.display = "block";
     }
@@ -58,15 +59,8 @@ function menuDropOpen() {
 
 function menuDropClose() {
     var menuDropList = document.getElementsByClassName("menu-dropdown-link");
+    (document.getElementsByClassName("menu-dropdown-start"))[0].classList.remove("menu-dropdown-start-selected");
     for (i = 0; i < menuDropList.length; i++) {
         menuDropList[i].style.display = "none";
     }
-}
-
-function menuDropHover() {
-    (document.getElementsByClassName("menu-dropdown-start"))[0].style.backgroundColor = "darkslategray";
-}
-
-function menuDropHoverOff() {
-    (document.getElementsByClassName("menu-dropdown-start"))[0].style.backgroundColor = "lightslategray";
 }
