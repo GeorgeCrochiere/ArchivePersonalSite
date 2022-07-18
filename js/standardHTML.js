@@ -30,14 +30,14 @@ function addHeaderContent() {
         <!--Navbar Items-->
         <div class="navbar" id="navbar">
             <a class="nav-link white-text-muted" href="../pages/about.html">About Me</a>
-            <a class="nav-link white-text-muted" href="#">Mission Statement</a>
-            <a class="nav-link white-text-muted" href="#">Resume</a>
-            <a class="nav-link white-text-muted" href="#">Contact Me</a>
+            <a class="nav-link white-text-muted" href="../pages/mission-statement.html">Mission Statement</a>
+            <a class="nav-link white-text-muted" href="../pages/resume.html">Resume</a>
+            <a class="nav-link white-text-muted" href="../pages/contact.html">Contact Me</a>
             <!--Clarkson Dropdown-->
             <div class="dropdown" onclick="dropToggle()">
                 <li class="dropdown-start" id="dropName"><a class="dds white-text-muted" href="#">Clarkson Honors</a></li>
-                <li class="dropdown-content" id="dropdownContent1"><a class="dark-text drop-hover" href="#">Strengths</a></li>
-                <li class="dropdown-content" id="dropdownContent2"><a class="dark-text drop-hover" href="#">Professional Ethics</a></li>
+                <li class="dropdown-content" id="dropdownContent1"><a class="dark-text drop-hover" href="../pages/honors-strengths.html">Strengths</a></li>
+                <li class="dropdown-content" id="dropdownContent2"><a class="dark-text drop-hover" href="../pages/honors-ethics.html">Professional Ethics</a></li>
             </div>
         </div>
         <!--Menu Selector-->
@@ -51,12 +51,12 @@ function addHeaderContent() {
                     </a>
                 </li>
                 <li class="menu-link menu-item" id="menuList" onclick="menuToggle()"><a class="dark-text menu-hover" href="../pages/about.html">About</a></li>
-                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Mission Statement</a></li>
-                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Resume</a></li>
-                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Contact Me</a></li>
+                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="../pages/mission-statement.html">Mission Statement</a></li>
+                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="../pages/resume.html">Resume</a></li>
+                <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="../pages/contact.html">Contact Me</a></li>
                 <li class="menu-dropdown-start menu-item" onclick="menuDropToggle()"><a class="dark-text menu-hover" href="#">Clarkson Honors</a></li>
-                <li class="menu-dropdown-link" id="menuDropTest" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="#">Strengths -</a></li>
-                <li class="menu-dropdown-link" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="#">Professional Ethics -</a></li>
+                <li class="menu-dropdown-link" id="menuDropTest" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="../pages/honors-strengths.html">Strengths -</a></li>
+                <li class="menu-dropdown-link" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="../pages/honors-ethics.html">Professional Ethics -</a></li>
             </div>
         </div>
     `;
