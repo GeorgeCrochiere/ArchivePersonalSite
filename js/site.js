@@ -6,15 +6,15 @@ function headerSize() {
     var homeWidth = document.getElementById("homeButton").offsetWidth;
     
     if (width > (homeWidth * 4.1)) {
-        document.getElementById("main").style.backgroundColor = "crimson";
         document.getElementById("navbar").style.display = "flex";
         document.getElementById("collapse-navbar").style.display = "none";
     } else {
-        document.getElementById("main").style.backgroundColor = "blueviolet";
         document.getElementById("navbar").style.display = "none";
         document.getElementById("collapse-navbar").style.display = "flex";
-    }
+    }          
+}
 
-    var txt = "Home Width: " + homeWidth + ", Window Width: " + width;
-    document.getElementById("main").textContent = txt;           
+function addListeners() {
+    window.addEventListener('resize', headerSize);
+    document.body.addEventListener('load', headerSize());
 }

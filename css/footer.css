@@ -1,0 +1,13 @@
+.footer {
+    height: 50pt;
+    margin: 0px;
+    
+}
+
+.footer-link {
+    padding: 14pt;
+}
+
+.footer-link:hover {
+    color: aliceblue;
+}
