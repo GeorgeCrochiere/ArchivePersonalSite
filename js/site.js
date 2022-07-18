@@ -11,7 +11,7 @@ function headerSize() {
     } else {
         document.getElementById("navbar").style.display = "none";
         document.getElementById("collapse-navbar").style.display = "flex";
-    }          
+    }
 }
 
 function addListeners() {

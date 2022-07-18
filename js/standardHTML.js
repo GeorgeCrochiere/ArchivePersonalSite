@@ -29,7 +29,7 @@ function addHeaderContent() {
         </div>
         <!--Navbar Items-->
         <div class="navbar" id="navbar">
-            <a class="nav-link white-text-muted" href="../pages/test.html">About Me</a>
+            <a class="nav-link white-text-muted" href="../pages/about.html">About Me</a>
             <a class="nav-link white-text-muted" href="#">Mission Statement</a>
             <a class="nav-link white-text-muted" href="#">Resume</a>
             <a class="nav-link white-text-muted" href="#">Contact Me</a>
@@ -50,7 +50,7 @@ function addHeaderContent() {
                         <div class="menuIcon"></div>
                     </a>
                 </li>
-                <li class="menu-link menu-item" id="menuList" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">About</a></li>
+                <li class="menu-link menu-item" id="menuList" onclick="menuToggle()"><a class="dark-text menu-hover" href="../pages/about.html">About</a></li>
                 <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Mission Statement</a></li>
                 <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Resume</a></li>
                 <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="#">Contact Me</a></li>
@@ -61,4 +61,15 @@ function addHeaderContent() {
         </div>
     `;
     document.getElementById("navImport").innerHTML = headerText;
+}
+
+function addFooterContent() {
+    var footerText = `
+    <div>
+        <a class="footer-link footer-link-start white-text-muted" href="https://github.com/GeorgeCrochiere"><i class="fa fa-github"></i></a>
+        <a class="footer-link white-text-muted" href="https://www.linkedin.com/in/george-d-crochiere/"><i class="fa fa-linkedin-square"></i></a>
+        <a class="footer-link white-text-muted" href="mailto:george.d.crochiere@hotmail.com"><i class="fa fa-envelope"></i></a>
+    </div>
+    `;
+    document.getElementById("footer").innerHTML = footerText;
 }

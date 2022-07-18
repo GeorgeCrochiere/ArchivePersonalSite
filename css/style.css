@@ -1,10 +1,16 @@
 html {
     position: relative;
+    min-height: 100%;
+    margin: 0px;
 }
 
 body {
     margin: 0px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #282828;
 }
 
 p {
@@ -21,8 +27,7 @@ nav {
 }
 
 .main-contents {
-    margin: 0px;
-    background-color:blueviolet;
+    margin: 15pt;
     color:aliceblue;
 }
 
