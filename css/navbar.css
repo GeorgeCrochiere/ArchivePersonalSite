@@ -18,6 +18,7 @@
 
 .dropdown-content {
     display: none;
+    pointer-events: none;
 }
 
 .nav-link {
@@ -30,6 +31,10 @@
 .dropdown-start {
     background-color: #121212;
     padding-top: 14.5pt; 
+}
+
+.drop-hover {
+    pointer-events: auto;
 }
 
 .dropdown-content:hover {

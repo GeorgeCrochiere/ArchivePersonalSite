@@ -6,32 +6,36 @@ html {
 
 body {
     margin: 0px;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     background-color: #282828;
 }
 
 p {
     font-size: 12pt;
-    margin: 0pt;
+    margin: 7pt;
+    text-indent: 25pt;
 }
 
-footer, nav {
+header, footer, nav {
     background-color: #121212;
+    width: 100%;
 }
 
-nav {
-    display: flex;
+header, footer, .main-contents {
+    position: relative;
+    z-index: 1;
 }
 
 .main-contents {
-    margin: 15pt;
+    margin-top: 25pt;
+    margin-bottom: 75pt;
+    margin-left: 35pt;
+    margin-right: 35pt;
     color:aliceblue;
 }
 
 nav {
+    display: flex;
     overflow: hidden;
 }
 
@@ -45,4 +49,15 @@ nav {
 
 .nav-link:hover, .menu-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
     color: gold;
+}
+
+.animation {
+    position: absolute;
+    background-color: aquamarine;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    display: none;
 }
