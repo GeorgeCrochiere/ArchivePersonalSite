@@ -19,11 +19,11 @@ p {
 header, footer, nav {
     background-color: #121212;
     width: 100%;
+    z-index: 2;
 }
 
 header, footer, .main-contents {
     position: relative;
-    z-index: 1;
 }
 
 .main-contents {
@@ -32,11 +32,17 @@ header, footer, .main-contents {
     margin-left: 35pt;
     margin-right: 35pt;
     color:aliceblue;
+    z-index: 1;
 }
 
 nav {
-    display: flex;
+    display: block;
     overflow: hidden;
+}
+
+.homeSec {
+    float: left;
+    z-index: 5;
 }
 
 .main {

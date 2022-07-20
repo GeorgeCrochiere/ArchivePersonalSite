@@ -10,11 +10,15 @@ function headerSize() {
         document.getElementById("collapse-navbar").style.display = "none";
     } else {
         document.getElementById("navbar").style.display = "none";
-        document.getElementById("collapse-navbar").style.display = "flex";
+        document.getElementById("collapse-navbar").style.display = "block";
     }
 }
 
 function addListeners() {
     window.addEventListener('resize', headerSize);
     document.body.addEventListener('load', headerSize());
+    document.body.addEventListener(onclick, () => {
+        dropClose();
+        menuClose();
+    })
 }

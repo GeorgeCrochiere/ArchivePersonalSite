@@ -24,7 +24,7 @@
 function addHeaderContent() {
     var headerText = `
         <!--Home Button-->
-        <div>
+        <div class="homeSec">
             <a class="main white-text" id="homeButton" href="../index.html">George D. Crochiere</a>
         </div>
         <!--Navbar Items-->

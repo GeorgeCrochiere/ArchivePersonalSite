@@ -1,12 +1,13 @@
 .collapse-nav {
-    float: right;
+    right: 0;
     padding-right: 20pt;
-    margin-left: auto;
     list-style: none;
+    position: absolute;
 }
 
 .menu-button {
     list-style: none;
+    float: right;
 }
 
 .menu-link, .menu-dropdown-link, .menu-dropdown-start {
@@ -50,6 +51,7 @@
 
 .menu-content {
     list-style: none;
+    float: right;
     display: flex;
     flex-direction: column;
     text-align: right;
