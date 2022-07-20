@@ -1,9 +1,9 @@
 .navbar {
     position: absolute;
-    display: flex;
     white-space: nowrap;
     margin-left: 150pt;
     z-index: 3;
+    align-items: flex-start;
 }
 
 .dropdown {

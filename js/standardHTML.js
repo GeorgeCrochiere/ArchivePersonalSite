@@ -68,7 +68,7 @@ function addFooterContent() {
     <div>
         <a class="footer-link footer-link-start white-text-muted" href="https://github.com/GeorgeCrochiere"><i class="fa fa-github"></i></a>
         <a class="footer-link white-text-muted" href="https://www.linkedin.com/in/george-d-crochiere/"><i class="fa fa-linkedin-square"></i></a>
-        <a class="footer-link white-text-muted" href="mailto:george.d.crochiere@hotmail.com"><i class="fa fa-envelope"></i></a>
+        <a class="footer-link white-text-muted" href="../pages/contact.html"><i class="fa fa-envelope"></i></a>
     </div>
     `;
     document.getElementById("footer").innerHTML = footerText;
