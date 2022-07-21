@@ -33,7 +33,7 @@ function contactPageSize() {
         }
     } else {
         for (i = 0; i < list.length; i++) {
-            document.getElementsByClassName("row")[0].style.height = '20pt';
+            document.getElementsByClassName("row")[0].style.height = '80pt';
             list[i].style.width = '33.33%';
         }
     }
