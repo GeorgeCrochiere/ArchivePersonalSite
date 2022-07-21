@@ -1,26 +1,3 @@
-/*function addImports() {
-
-    var importText = `
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/text.css">
-        <link rel="stylesheet" href="../css/menuIcon.css">
-        <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-
-        <script src="../js/site.js"></script>
-        <script src="../js/menuList.js"></script>
-
-        <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Roboto Slab';
-            }
-        </style>
-    `;
-    var originalText = document.getElementById("header").innerHTML;
-    document.getElementById("header").innerHTML = originalText + importText;
-}*/
-
 function addHeaderContent() {
     var headerText = `
         <!--Home Button-->
@@ -64,12 +41,18 @@ function addHeaderContent() {
 }
 
 function addFooterContent() {
+    var call = `&#109;&#97;&#105;&#108;&#116;&#111;&#58;`;
+    var start = `&#103;&#101;&#111;&#114;&#103;&#101;&#46;&#100;&#46;`;
+    var end = `&#99;&#114;&#111;&#99;&#104;&#105;&#101;&#114;&#101;&#64;`;
+    var add = `&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;`;
+
     var footerText = `
     <div>
         <a class="footer-link footer-link-start white-text-muted" href="https://github.com/GeorgeCrochiere"><i class="fa fa-github"></i></a>
         <a class="footer-link white-text-muted" href="https://www.linkedin.com/in/george-d-crochiere/"><i class="fa fa-linkedin-square"></i></a>
-        <a class="footer-link white-text-muted" href="../pages/contact.html"><i class="fa fa-envelope"></i></a>
+        <a class="footer-link white-text-muted" href="javascript:window.location.href=atob('bWFpbHRvOmdlb3JnZS5kLmNyb2NoaWVyZUBob3RtYWlsLmNvbQ==')"><i class="fa fa-envelope"></i></a>
     </div>
     `;
     document.getElementById("footer").innerHTML = footerText;
+    document.getElementById("link")
 }
