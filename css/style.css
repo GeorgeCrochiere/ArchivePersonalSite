@@ -67,3 +67,21 @@ nav {
     bottom: 0;
     display: none;
 }
+
+.column {
+    display: block;
+    width: 33.33%;
+    float: left;
+    pointer-events: none;
+    text-align: center;
+}
+
+.contactLink {
+    text-decoration: none;
+    pointer-events: all;
+    font-size: 72pt;
+}
+
+.column:hover .contactLink{
+    color: lightslategray;
+}
