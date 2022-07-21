@@ -1,7 +1,11 @@
 function headerSize() {
     dropClose();
     menuClose();
-    contactPageSize();
+    try {
+        contactPageSize();
+    } catch (error) {
+        console.log("Ignore");
+    }
 
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
