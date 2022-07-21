@@ -76,9 +76,14 @@ nav {
     text-align: center;
 }
 
+.row {
+    margin-bottom: 70pt;
+}
+
 .contactLink {
     text-decoration: none;
     pointer-events: all;
+    text-align: center;
     font-size: 72pt;
 }
 

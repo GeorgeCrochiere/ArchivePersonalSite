@@ -1,6 +1,7 @@
 function headerSize() {
     dropClose();
     menuClose();
+    contactPageSize();
 
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
@@ -21,4 +22,19 @@ function addListeners() {
         dropClose();
         menuClose();
     })
+}
+
+function contactPageSize() {
+    var list = document.getElementsByClassName("column");
+    if (document.getElementById("html").offsetWidth < 700) {
+        document.getElementsByClassName("row")[0].style.height = '280pt';
+        for (i = 0; i < list.length; i++) {
+            list[i].style.width = '100%';
+        }
+    } else {
+        for (i = 0; i < list.length; i++) {
+            document.getElementsByClassName("row")[0].style.height = '20pt';
+            list[i].style.width = '33.33%';
+        }
+    }
 }
