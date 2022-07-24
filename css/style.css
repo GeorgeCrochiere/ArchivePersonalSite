@@ -29,8 +29,8 @@ header, footer, .main-contents {
 .main-contents {
     margin-top: 25pt;
     margin-bottom: 75pt;
-    margin-left: 35pt;
-    margin-right: 35pt;
+    margin-left: 20%;
+    margin-right: 20%;
     color:aliceblue;
     z-index: 1;
 }
@@ -88,6 +88,11 @@ nav {
     font-size: 72pt;
 }
 
-.column:hover .contactLink{
+.column:hover .contactLink, .resume:hover{
     color: lightslategray;
+}
+
+.resume {
+    color: aliceblue;
+    text-decoration: underline;
 }
