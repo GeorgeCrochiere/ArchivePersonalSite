@@ -29,9 +29,12 @@ header, footer, .main-contents {
 .main-contents {
     margin-top: 25pt;
     margin-bottom: 75pt;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35pt;
+    padding-right: 35pt;
     color:aliceblue;
+    max-width: 750pt;
     z-index: 1;
 }
 
