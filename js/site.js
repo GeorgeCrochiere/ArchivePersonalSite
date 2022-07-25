@@ -42,3 +42,12 @@ function contactPageSize() {
         }
     }
 }
+
+function toggleResSec(className) {
+    var sec = document.getElementsByClassName(className)[0];
+    if (sec.style.display == "none") {
+        sec.style.display = "block";
+    } else {
+        sec.style.display = "none";
+    }
+}

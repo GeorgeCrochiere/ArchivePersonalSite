@@ -31,6 +31,36 @@ hr {
     color: darkgray
 }
 
+u {
+    color: aliceblue;
+}
+
+ul {
+    margin: 0pt;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+}
+
 .center {
     text-align: center;
+}
+
+.resRef {
+    padding: 5pt;
+    max-width: 750pt;
+    text-align: left;
+    padding-left: 25pt;
+    margin: 0px;
+}
+
+.education, .workAndRelExp, .leadership, .skillsAwards {
+    padding-left: 35pt;
+    padding-right: 35pt;
+    list-style: outside;
+    display: none;
+}
+
+.resRef:hover {
+    background-color: #121212;
+    color: #14FFEC;
 }
