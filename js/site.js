@@ -43,8 +43,8 @@ function contactPageSize() {
     }
 }
 
-function toggleResSec(className) {
-    var sec = document.getElementsByClassName(className)[0];
+function toggleResSec(id) {
+    var sec = document.getElementById(id);
     if (sec.style.display == "none") {
         sec.style.display = "block";
     } else {

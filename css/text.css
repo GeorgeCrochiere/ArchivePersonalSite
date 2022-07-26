@@ -48,8 +48,6 @@ ul {
 .resRef {
     padding: 5pt;
     max-width: 750pt;
-    text-align: left;
-    padding-left: 25pt;
     margin: 0px;
 }
 
@@ -57,7 +55,6 @@ ul {
     padding-left: 35pt;
     padding-right: 35pt;
     list-style: outside;
-    display: none;
 }
 
 .resRef:hover {

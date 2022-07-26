@@ -35,26 +35,22 @@
         <h2>Some of what I've done and accomplished.</h2>
         <h3><a class="resume" href="#">You can download the full Resume here.</a></h3>
         <hr>
-        <h3 class="white-text resRef" onclick="toggleResSec('education')">Education</h3>
-        <div class="education white-text-muted">
-            <ul>
-                <li>Test</li>
-            </ul>
-        </div>
-        <h3 class="white-text resRef" onclick="toggleResSec('workAndRelExp')">Work and Relevant Experience</h3>
-        <div class="workAndRelExp white-text-muted">
-            <ul>
-                <li>Test 2</li>
-            </ul>
-        </div>
-        <h3 class="white-text resRef" onclick="toggleResSec('leadership')">Leadership Skills</h3>
-        <div class="leadership white-text-muted">
+        <a class="white-text" href="#"><h3 class="resRef" onclick="toggleResSec('education')">Education</h3></a>
+        <ul class="education white-text-muted" id="education" style="display: none;">
+            <li>Test</li>
+        </ul>
+        <a class="white-text" href="#"><h3 class="resRef" onclick="toggleResSec('workAndRelExp')">Work and Relevant Experience</h3></a>
+        <ul class="workAndRelExp white-text-muted" id="workAndRelExp" style="display: none;">
+            <li>Test 2</li>
+        </ul>
+        <a class="white-text" href="#"><h3 class="resRef" onclick="toggleResSec('leadership')">Leadership Skills</h3></a>
+        <ul class="leadership white-text-muted" id="leadership" style="display: none;">
             
-        </div>
-        <h3 class="white-text resRef" onclick="toggleResSec('skillsAwards')">Skills and Awards</h3>
-        <div class="skillsAwards white-text-muted">
+        </ul>
+        <a class="white-text" href="#"><h3 class="resRef" onclick="toggleResSec('skillsAwards')">Skills and Awards</h3></a>
+        <ul class="skillsAwards white-text-muted" id="skillsAwards" style="display: none;">
             
-        </div>
+        </ul>
     </div>
     
     <footer id="footer" class="footer"></footer>
