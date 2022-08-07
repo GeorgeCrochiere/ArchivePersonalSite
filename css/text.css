@@ -35,6 +35,10 @@ u {
     color: aliceblue;
 }
 
+a {
+    cursor: pointer;
+}
+
 ul {
     margin: 0pt;
     margin-top: 3pt;
