@@ -41,6 +41,10 @@ ul {
     margin-bottom: 3pt;
 }
 
+ul * {
+    margin-top: 3pt;
+}
+
 .center {
     text-align: center;
 }
@@ -49,9 +53,12 @@ ul {
     padding: 5pt;
     max-width: 750pt;
     margin: 0px;
+    border-width: 0.25pt;
+    border-color: aliceblue;
+    border-style: solid;
 }
 
-.education, .workAndRelExp, .leadership, .skillsAwards {
+.education, .workAndRelExp, .leadership, .skillsAwards, .projects {
     padding-left: 35pt;
     padding-right: 35pt;
     list-style: outside;
