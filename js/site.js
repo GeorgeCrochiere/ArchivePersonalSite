@@ -11,7 +11,7 @@ function headerSize() {
     var width = document.getElementById("html").offsetWidth;
     var homeWidth = document.getElementById("homeButton").offsetWidth;
     
-    if (width > (homeWidth * 4.1)) {
+    if (width > (homeWidth * 4)) {
         document.getElementById("navbar").style.display = "flex";
         document.getElementById("collapse-navbar").style.display = "none";
     } else {
