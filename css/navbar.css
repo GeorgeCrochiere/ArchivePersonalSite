@@ -15,28 +15,27 @@
     list-style: none;
     background-color: lightgray;
     margin: 0pt;
-    padding: 10pt;
 }
 
 .dropdown-content {
     display: none;
-    pointer-events: none;
+    padding: 10pt;
 }
 
 .nav-link {
     padding: 7pt;
     padding-top: 14.5pt;
-    padding-bottom: 10pt;
+    padding-bottom: 11.5pt;
     list-style: none;
+    height: 16pt;
 }
 
 .dropdown-start {
     background-color: #121212;
-    padding-top: 14.5pt; 
-}
-
-.drop-hover {
-    pointer-events: auto;
+    padding: 7pt;
+    padding-top: 14.5pt;
+    padding-bottom: 11.5pt;
+    height: 16pt;
 }
 
 .dropdown-content:hover {

@@ -41,11 +41,6 @@ function addHeaderContent() {
 }
 
 function addFooterContent() {
-    var call = `&#109;&#97;&#105;&#108;&#116;&#111;&#58;`;
-    var start = `&#103;&#101;&#111;&#114;&#103;&#101;&#46;&#100;&#46;`;
-    var end = `&#99;&#114;&#111;&#99;&#104;&#105;&#101;&#114;&#101;&#64;`;
-    var add = `&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;`;
-
     var footerText = `
     <div>
         <a class="footer-link footer-link-start white-text-muted" href="https://github.com/GeorgeCrochiere"><i class="fa fa-github"></i></a>

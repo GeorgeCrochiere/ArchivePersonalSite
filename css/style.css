@@ -54,9 +54,10 @@ nav {
     padding: 12pt;
     padding-left: 20pt;
     white-space: nowrap;
+    height: 18pt;
 }
 
-.nav-link:hover, .menu-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
+.nav-link:hover, .dropdown-start:hover, .menu:hover, .main:hover {
     color: #14FFEC;
 }
 

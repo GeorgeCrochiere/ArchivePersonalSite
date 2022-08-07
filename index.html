@@ -40,9 +40,9 @@
                 <a class="nav-link white-text-muted" href="./pages/contact.html">Contact Me</a>
                 <!--Clarkson Dropdown-->
                 <div class="dropdown" onclick="dropToggle()">
-                    <li class="dropdown-start" id="dropName"><a class="dds white-text-muted" href="#">Clarkson Honors</a></li>
-                    <li class="dropdown-content" id="dropdownContent1"><a class="dark-text drop-hover" href="./pages/honors-strengths.html">Strengths</a></li>
-                    <li class="dropdown-content" id="dropdownContent2"><a class="dark-text drop-hover" href="./pages/honors-ethics.html">Professional Ethics</a></li>
+                    <a class="dds white-text-muted dropdown-start" id="dropName" href="#">Clarkson Honors</a>
+                    <a class="dark-text drop-hover dropdown-content" id="dropdownContent1" href="./pages/honors-strengths.html">Strengths</a>
+                    <a class="dark-text drop-hover dropdown-content" id="dropdownContent2" href="./pages/honors-ethics.html">Professional Ethics</a>
                 </div>
             </div>
             <!--Menu Selector-->
@@ -55,13 +55,13 @@
                             <div class="menuIcon"></div>
                         </a>
                     </li>
-                    <li class="menu-link menu-item" id="menuList" onclick="menuToggle()"><a class="dark-text menu-hover" href="./pages/about.html">About</a></li>
-                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="./pages/mission-statement.html">Mission Statement</a></li>
-                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="./pages/resume.html">Resume</a></li>
-                    <li class="menu-link menu-item" onclick="menuToggle()"><a class="dark-text menu-hover" href="./pages/contact.html">Contact Me</a></li>
-                    <li class="menu-dropdown-start menu-item" onclick="menuDropToggle()"><a class="dark-text menu-hover" href="#">Clarkson Honors</a></li>
-                    <li class="menu-dropdown-link" id="menuDropTest" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="#">Strengths -</a></li>
-                    <li class="menu-dropdown-link" onclick="menuToggle()"><a class="dark-text-muted menu-hover-drop" href="#">Professional Ethics -</a></li>
+                    <a class="dark-text menu-link menu-item" href="./pages/about.html" onclick="menuToggle()" id="menuList">About</a>
+                    <a class="dark-text menu-link menu-item" href="./pages/mission-statement.html" onclick="menuToggle()">Mission Statement</a>
+                    <a class="dark-text menu-link menu-item" href="./pages/resume.html" onclick="menuToggle()">Resume</a>
+                    <a class="dark-text menu-link menu-item" href="./pages/contact.html" onclick="menuToggle()">Contact Me</a>
+                    <a class="dark-text menu-dropdown-start menu-item" href="#" onclick="menuDropToggle()">Clarkson Honors</a>
+                    <a class="dark-text-muted menu-dropdown-link" href="./pages/honors-strengths.html" onclick="menuToggle()" id="menuDropTest">Strengths -</a>
+                    <a class="dark-text-muted menu-dropdown-link" href="./pages/honors-ethics.html" onclick="menuToggle()">Professional Ethics -</a>
                 </div>
             </div>
         </nav>

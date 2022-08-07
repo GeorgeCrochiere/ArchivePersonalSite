@@ -1,6 +1,7 @@
 function headerSize() {
     dropClose();
     menuClose();
+    menuDropClose();
     try {
         contactPageSize();
     } catch (error) {

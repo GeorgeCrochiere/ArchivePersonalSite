@@ -22,11 +22,8 @@
 }
 
 .menu-dropdown-link {
-    padding-left: 5pt;
+    padding-left: 10pt;
     padding-right: 10pt;
-}
-
-.menu-dropdown-link {
     display: none;
     font-size: 12pt;
 }
@@ -34,7 +31,7 @@
 .menu {
     float: right;
     padding: 7pt;
-    padding-top: 10pt;
+    padding-top: 13pt;
 }
 
 .menuIcon {
@@ -57,18 +54,15 @@
     text-align: right;
 }
 
-.menu-item, .menu-dropdown-link {
-    pointer-events: none;
-}
-
-.menu-hover, .menu-hover-drop {
-    pointer-events: all;
-}
-
 .menu-item:hover, .menu-dropdown-link:hover {
     background-color: lightslategray;
 }
 
 .menu-dropdown-start-selected {
     background-color: darkslategray;
+    color: aliceblue;
+}
+
+.menu-item, .menu-dropdown-link {
+    width: 120pt;
 }
