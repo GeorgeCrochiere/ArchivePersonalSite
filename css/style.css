@@ -100,3 +100,33 @@ nav {
     color: aliceblue;
     text-decoration: underline;
 }
+
+.img-center, .img-panorama {
+    display: block;
+    width: 175pt;
+    margin: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-panorama {
+    width: 100%;
+}
+
+.img-left {
+    display: block;
+    width: 200pt;
+    margin: 7pt;
+    float: left;
+}
+
+.img-right {
+    display: block;
+    width: 200pt;
+    margin: 3pt;
+    float: right;
+}
+
+.big {
+    width: 250pt;
+}
