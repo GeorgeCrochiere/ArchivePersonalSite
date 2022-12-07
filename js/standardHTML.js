@@ -15,6 +15,7 @@ function addHeaderContent() {
                 <a class="dds white-text-muted dropdown-start" id="dropName" href="#">Clarkson Honors</a>
                 <a class="dark-text drop-hover dropdown-content" id="dropdownContent1" href="../pages/honors-strengths.html">Strengths</a>
                 <a class="dark-text drop-hover dropdown-content" id="dropdownContent2" href="../pages/honors-ethics.html">Professional Ethics</a>
+                <a class="dark-text drop-hover dropdown-content" id="dropdownContent3" href="../pages/honors-community-service.html">Community Service</a>
             </div>
         </div>
         <!--Menu Selector-->
@@ -34,6 +35,7 @@ function addHeaderContent() {
                 <a class="dark-text menu-dropdown-start menu-item" href="#" onclick="menuDropToggle()">Clarkson Honors</a>
                 <a class="dark-text-muted menu-dropdown-link" href="../pages/honors-strengths.html" onclick="menuToggle()" id="menuDropTest">Strengths -</a>
                 <a class="dark-text-muted menu-dropdown-link" href="../pages/honors-ethics.html" onclick="menuToggle()">Professional Ethics -</a>
+                <a class="dark-text-muted menu-dropdown-link" href="../pages/honors-community-service.html" onclick="menuToggle()">Community Service -</a>
             </div>
         </div>
     `;
