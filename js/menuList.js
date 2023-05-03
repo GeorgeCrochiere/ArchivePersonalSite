@@ -35,12 +35,14 @@ function dropOpen() {
     document.getElementById("dropdownContent1").style.display = "block";
     document.getElementById("dropdownContent2").style.display = "block";
     document.getElementById("dropdownContent3").style.display = "block";
+    document.getElementById("dropdownContent4").style.display = "block";
 }
 
 function dropClose() {
     document.getElementById("dropdownContent1").style.display = "none";
     document.getElementById("dropdownContent2").style.display = "none";
     document.getElementById("dropdownContent3").style.display = "none";
+    document.getElementById("dropdownContent4").style.display = "none";
 }
 
 function menuDropToggle() {
